@@ -1,0 +1,33 @@
+package com.numetry.productstore.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.numetry.productstore.dao.ProductStoreDao;
+import com.numetry.productstore.entity.Product;
+
+@Service
+public class ProductStoreServiceImp implements ProductStoreService {
+
+	
+	@Autowired
+	private ProductStoreDao productStoreDao;
+
+	
+	public List<Product> getAllProduct() {
+		
+		return productStoreDao.findAll();
+	}
+
+
+	@Override
+	public Product saveProduct(Product product) {
+		
+		return productStoreDao.save(product);
+	}
+	
+	
+	
+}

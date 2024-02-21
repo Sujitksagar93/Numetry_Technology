@@ -1,0 +1,162 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    border: 1px solid black;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav ul{
+    text-align: right;
+    width: 100%;
+    padding-right: 60px;
+}
+
+nav ul li{
+    
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.section1{
+    
+    border: 1px solid black;
+    width: 99%;
+    height: 400px;
+}
+
+.cards1{
+    width: 100%;
+}
+.col-xl-3{
+   
+    display: inline-block;
+    justify-content: space-between;
+    margin: 30px 23px 15px 15px ;
+    border: 1px solid black;
+    width: 30%;
+    height: 180px;
+    
+}
+
+.col-xl-3 h1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.section2{
+    width: 100%;
+    border: 1px solid black;
+}
+.cards2{
+    width: 100%;
+}
+.title{
+    border: 1px solid black;
+    width: 50%;
+    align-items: center;
+    height: 60px;
+    margin: 25px 20px 20px 330px;
+}
+.title h1{
+    text-align: center;
+}
+.col-xl-2{
+   
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px 31px 20px 30px ;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    
+}
+
+.col-xl-2 h1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.subcol{
+   
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px 31px 40px 30px ;
+    border: 1px solid black;
+    width: 20%;
+    height: 140px;
+    
+}
+
+.mainfooter{
+    
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+}
+.col-xl-4{
+    display: inline-block;
+  border: 1px solid black;
+  width: 100%;
+  height: 199px;
+}
+.signup{
+    border: 1px solid black;
+    width: 40%;
+    height: 55px;
+    margin: 20px 10px 29px 47px;
+  
+}
+
+.emailbox{
+    margin: 0px 10px 0px 46px;
+}
+.footer2{
+    padding-top: 88px;
+}
+.col-xl-1{
+    display: inline-block;
+    width: 14%;
+    height: 100px;
+    border: 1px solid black;
+    justify-content:space-between ;
+    align-content: flex-end;
+}
+
+ul
+{
+  padding-left: 31rem;
+}
+.footer-logo ul li{
+    display: initial;
+    align-content: center;
+    width: 2%;
+    align-content: center;
+    
+}
+.fa-brands{
+    margin: 20px;
+    
+}
+.fa-solid{
+    margin: 10px;
+}

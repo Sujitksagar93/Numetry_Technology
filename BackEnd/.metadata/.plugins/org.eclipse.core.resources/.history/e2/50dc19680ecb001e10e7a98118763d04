@@ -1,0 +1,5 @@
+package com.numetry.store.entity;
+
+public class ProductStore {
+
+}

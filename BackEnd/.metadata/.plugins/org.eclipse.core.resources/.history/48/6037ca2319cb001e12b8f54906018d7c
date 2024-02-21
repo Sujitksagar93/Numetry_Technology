@@ -1,0 +1,5 @@
+package com.numetry.productstore.dao;
+
+public interface ProductStoreDao {
+
+}

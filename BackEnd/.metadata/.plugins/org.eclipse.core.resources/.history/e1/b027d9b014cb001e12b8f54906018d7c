@@ -1,0 +1,32 @@
+package com.numetry.store.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.numetry.store.entity.ProductStore;
+import com.numetry.store.service.ProductStoreServiceImp;
+
+@Controller
+@RequestMapping("/product")
+public class ProducStoreController {
+
+	@Autowired
+	private ProductStoreServiceImp profProductStoreServiceImp;
+	
+	@GetMapping("/list")
+	public List<ProductStore> getAllProducts()
+	{
+		return profProductStoreServiceImp.getAllProducts();
+	}
+	
+	@PostMapping("/save")
+	public ProductStore saveProduct(ProductStore productStore)
+	{
+		return profProductStoreServiceImp.saveProduct(productStore);
+	}
+}

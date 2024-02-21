@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\NumetryTechnologies\BackEnd\productstore\productstore"/>
+			<item value="E:\NumetryTechnologies\BackEnd\store\store"/>
+			<item value="E:\NumetryTechnologies\BackEnd\springsecurity\springsecurity"/>
+			<item value="E:\NumetryTechnologies\BackEnd\schooltransportation\schooltransportation"/>
+			<item value="E:\NumetryTechnologies\BackEnd\lombok\lombok"/>
+			<item value="E:\NumetryTechnologies\BackEnd\login\login"/>
+			<item value="E:\NumetryTechnologies\BackEnd\todolist\todolist"/>
+			<item value="E:\NumetryTechnologies\BackEnd\ToDoList\ToDoList"/>
+			<item value="E:\NumetryTechnologies\BackEnd\NumetryTaskCreateApi\NumetryTaskCreateApi"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

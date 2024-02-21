@@ -1,0 +1,5 @@
+package com.numetry.productstore.service;
+
+public interface ProductStoreService {
+
+}

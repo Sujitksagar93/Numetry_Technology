@@ -1,0 +1,29 @@
+.Testimonials{
+    padding: 40px;
+    background:#f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: centerS;
+}
+
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+}
+
+@media screen and (min-width: 960px) {
+    .col{
+      flex:100%;
+      max-width: 80%;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .col{
+      flex:100%;
+      max-width: 100%;
+    }
+  }

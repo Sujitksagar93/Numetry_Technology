@@ -1,0 +1,5 @@
+package com.numetry.store.dao;
+
+public interface StoreDao {
+
+}

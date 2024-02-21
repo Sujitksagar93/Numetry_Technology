@@ -1,0 +1,38 @@
+.container{
+    width: 600px;
+    background-image: url(/abc.jpg);
+   
+}
+div{
+    margin: 0%;
+    padding: 2%;
+    align-items: center;
+    
+    
+}
+.v{
+    margin: auto;
+    padding: 1%;
+    align-items: center;
+    background-color: red;
+}
+
+td{
+    width: 10%;
+}
+.a1{
+    margin: auto;
+    align-items: center;
+    padding-right: 50%;
+}
+.b{
+    text-align: start;
+    border-color: red;
+}
+
+.v1{
+
+    margin: auto;
+    align-items: flex-end;
+
+}

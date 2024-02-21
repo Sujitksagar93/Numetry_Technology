@@ -1,0 +1,20 @@
+package com.numetry.store.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.numetry.store.entity.ProductStore;
+
+@Service
+public class ProductStoreServiceImp implements ProductService {
+
+
+	
+	@Override
+	public List<ProductStore> getAllProducts() {
+		
+		return null;
+	}
+
+}
